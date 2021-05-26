@@ -20,8 +20,9 @@
 
 
 <script>
-  const wax = new waxjs.WaxJS('https://wax.greymass.com');
-  // const wax = new waxjs.WaxJS('http://localhost:8888', null, null, true, null, 'http://all-access.wax.test:8113', 'http://api-idm.wax.test/v1/accounts/auto-accept/');
+  const wax = new waxjs.WaxJS('https://wax.greymass.com', null, null, true, null, "https://all-access.wax.io", "https://api-idm.wax.io/v1/accounts/auto-accept/", true);
+  // const wax = new waxjs.WaxJS('https://wax.greymass.com');
+  // const wax = new waxjs.WaxJS('https://wax.greymass.com', null, null, true, null, 'http://all-access.wax.test:8113', 'http://api-idm.wax.test/v1/accounts/auto-accept/');
 
   async function login() {
     try {

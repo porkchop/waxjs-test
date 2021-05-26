@@ -24,7 +24,6 @@ export class WaxJS {
     private waxAutoSigningURL: string = "https://api-idm.wax.io/v1/accounts/auto-accept/",
     bandwidthPayer: BandwidthPayer | boolean = false
   ) {
-    console.log("HAIIIIII WAXJS");
     this.waxEventSource = new WaxEventSource(waxSigningURL);
     this.rpc = new JsonRpc(rcpEndpoint);
 
